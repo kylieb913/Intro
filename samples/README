@@ -1,4 +1,4 @@
 HelloWorld.sh shows you a working basic script - no AI needed! 
 bashRead.sh shows you one way to "read" information from the commnd line into your file (into you script) so you can use it with your code
 infinite.sh shows you an infinite loop! Don't worry, you can use the Ctrl + C command on the command line to kill the infinite loop. (HINT: you may have to spam the kill keys!) 
-myFirstBash.sh shows you and empty script file
+myFirstBash.sh shows you another way to get information from the command line into your scripts; the $1 means whatever comes after the command name and the space in the "first position"; if you use $2 you can get something that comes in the "second position" after the command name and item in the "first position", where "positions" are separated by spaces on the command line. 
