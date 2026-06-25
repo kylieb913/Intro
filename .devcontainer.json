@@ -1,11 +1,12 @@
 {
-  //comments in this file start with the double forward slash 
     "name": "RStudio Environment",
     "image": "rocker/rstudio:latest",
-    "extensions": [
+    "customizations": [
         "REditorSupport.r",
         "quarto.quarto"
     ]
+
+  //comments in this file start with the double forward slash 
 
   //The Rocker Project uses a common tool called 'Docker' to "contain" a specific version of code. 
   //This is useful because code changes really fast and all the time! 
