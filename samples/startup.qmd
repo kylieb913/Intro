@@ -11,6 +11,8 @@ How many frames do you see in this space and what you they do?
 Next up: Let's make a space for writing code that R can understand: 
 
 ```{r}
+install.packages("rmarkdown") 
+
 #The pound sign controls titles outside of the code sections; it allows you to make comments when you are *INSIDE* code spaces 
 
 #Our first piece of code. Lets say hello: 
