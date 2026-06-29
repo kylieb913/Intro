@@ -1,0 +1,26 @@
+{
+  "name": "RStudio Environment",
+  "image": "rocker/rstudio:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "REditorSupport.r",
+        "quarto.quarto"
+    ]
+    }
+  } 
+
+  //comments in this file start with the double forward slash 
+
+  //The Rocker Project uses a common tool called 'Docker' to "contain" a specific version of code. 
+  //This is useful because code changes really fast and all the time! 
+  //Since the kind of code we want to contain is 'R' code, they replaced the 'D' in docker with 'R' - rocker! 
+  //Learn more at https://rocker-project.org/
+
+  //Quarto is a markdown style that allows us to specify code for R, Python, Julia, and other languages in a notebook
+  //That means we can reproduce and reuse information across communities! Neat 
+  //Learn more at https://quarto.org/
+
+  //PS - there is an Easter Egg on the Quarto website - do you RECOGNIZE the data they use as an example? 
+  
+}
